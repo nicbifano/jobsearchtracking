@@ -6,14 +6,21 @@
 </head>
 <body>
     <label for="sheet">Sheet:</label>
-    <input type="text" id="sheet" name="sheet"><br><br>
+    <input type="text" id="sheet" name="sheet"><br>
+    <p id="mysheet">my sheet: <span id="sheetValue"></span></p><br>
+    <button id="saveSheet">save Sheet</button><br><br>
     <label for="data">dataType:</label>
     <select name="data" id="data">
         <option value="Resources - Things">Resources - Things</option>
+        <option value="Resources - Places">Resources - Places</option>
+        <option value="Resources - People">Resources - People</option>
         <option value="Contacts - Social Networking">Contacts - Social Networking</option>
+        <option value="Contacts - Discussions">Contacts - Discussions</option>
+        <option value="Contacts - Applied">Contacts - Applied</option>
+        <option value="Contacts">Contacts</option>
         <option value="Meetings/Interviews">Meetings/Interviews</option>
       </select>
     <br><br>
-  <button id="sendData">Send Data</button>
+  <button id="sendData">Send Data to Sheet</button>
 </body>
 </html>
