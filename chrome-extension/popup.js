@@ -10,6 +10,7 @@ document.getElementById("sendData").addEventListener("click", () => {
 document.addEventListener("DOMContentLoaded", function () {
   const inputField = document.getElementById("sheet");
   const saveButton = document.getElementById("saveSheet");
+  const clearButton = document.getElementById("clearSheet");
   const sendButton = document.getElementById("sendData");
   const statusText = document.getElementById("status");
   const sheetValueSpan = document.getElementById("sheetValue");
@@ -30,5 +31,20 @@ document.addEventListener("DOMContentLoaded", function () {
       }, 2000);
     });
   });
+
+  clearButton.addEventListener("click", function() {
+    // Clear chrome storage
+    chrome.storage.sync.remove("userNote", function() {
+      // Clear span text
+      sheetValueSpan.textContent = "";
+      
+      // Show success message
+      statusText.textContent = "Sheet data cleared!";
+      setTimeout(() => {
+        statusText.textContent = "";
+      }, 2000);
+    });
+  })
+
 });
 
