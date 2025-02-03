@@ -5,10 +5,13 @@
   <script src="popup.js" defer></script>
 </head>
 <body>
+  <div style="border:1px;">
     <label for="sheet">Sheet:</label>
     <input type="text" id="sheet" name="sheet"><br>
     <p id="mysheet">my sheet: <span id="sheetValue"></span></p><br>
     <button id="saveSheet">save Sheet</button><br><br>
+  </div>
+  <div style="border:1px;">
     <label for="data">dataType:</label>
     <select name="data" id="data">
         <option value="Resources - Things">Resources - Things</option>
@@ -22,5 +25,6 @@
       </select>
     <br><br>
   <button id="sendData">Send Data to Sheet</button>
+</div>
 </body>
 </html>
