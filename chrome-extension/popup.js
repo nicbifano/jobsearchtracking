@@ -9,15 +9,26 @@ document.getElementById("sendData").addEventListener("click", () => {
 
 document.addEventListener("DOMContentLoaded", function () {
   const inputField = document.getElementById("sheet");
-  const saveButton = document.getElementById("saveData");
+  const saveButton = document.getElementById("saveSheet");
   const sendButton = document.getElementById("sendData");
   const statusText = document.getElementById("status");
   const sheetValueSpan = document.getElementById("sheetValue");
 
-  // Load saved data when popup opens
-  chrome.storage.sync.get("userNote", function (data) {
-    if (data.userNote) {
-      inputField.value = data.userNote;
-      sheetValueSpan.textContent = data.userNote; // Set initial value of sheetValue span
-    }
-  })});
+  // Add save button click handler
+  saveButton.addEventListener("click", function() {
+    const inputValue = inputField.value;
+    
+    // Save to chrome storage
+    chrome.storage.sync.set({ userNote: inputValue }, function() {
+      // Update span text
+      sheetValueSpan.textContent = inputValue;
+      
+      // Show success message
+      statusText.textContent = "Sheet data saved!";
+      setTimeout(() => {
+        statusText.textContent = "";
+      }, 2000);
+    });
+  });
+});
+
