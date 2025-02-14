@@ -4,7 +4,7 @@ chrome.runtime.onInstalled.addListener(() => {
   
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.type === "sendToSheet") {
-    const sheetUrl = "https://script.google.com/u/0/home/projects/1b6DyXjIahXP1bxLUSknTrRkEqo1aV-J7W36doYxuL3eM3z4P16-VxxOo/Code.gs"; // Replace with your web app URL
+    //const sheetUrl = "https://script.google.com/u/0/home/projects/1b6DyXjIahXP1bxLUSknTrRkEqo1aV-J7W36doYxuL3eM3z4P16-VxxOo/Code.gs"; // Replace with your web app URL
     fetch(sheetUrl, {
       method: "POST",
       headers: {
