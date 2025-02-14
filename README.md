@@ -1,6 +1,7 @@
 # jobsearchtracking
 tracking job search activities in google sheets
 
+Make your own copy of this spreadsheet:
 https://docs.google.com/spreadsheets/d/183V0I0tSbyict56wctsR_jXTUsT8Y4xL2redutPMHsw/edit?gid=69939530#gid=69939530
 
 open up Extensions > App Script
