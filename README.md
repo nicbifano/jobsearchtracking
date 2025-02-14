@@ -1,5 +1,6 @@
 # jobsearchtracking
 This project is to use google spreadsheets as a job search tracking activity
+
 Step 1:
 Make your own copy of this spreadsheet:
 https://docs.google.com/spreadsheets/d/183V0I0tSbyict56wctsR_jXTUsT8Y4xL2redutPMHsw/edit?gid=69939530#gid=69939530
