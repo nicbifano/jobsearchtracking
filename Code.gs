@@ -20,8 +20,8 @@ function doPost(e) {
   }
 
   // Append the data in the first empty row
-  sheet.getRange(firstEmptyRow, 1, 1, 4).setValues([
-    [data.timestamp, data.dataType, "", data.title + " - " + data.url]
+  sheet.getRange(firstEmptyRow, 1, 1, 5).setValues([
+    [data.timestamp, data.dataType, "", data.title, data.url]
   ]);
 
   return ContentService.createTextOutput("Success").setMimeType(ContentService.MimeType.TEXT);
