@@ -5,10 +5,15 @@ This project is to use google spreadsheets as a job search tracking activity
 Step 1:
 Make your own copy of this spreadsheet:
 File > Make a Copy
+
 https://docs.google.com/spreadsheets/d/1QaB6toLxA3B4MwaJZ-tV8kMV5VbZrNMiep4t__1PYpg/edit?usp=sharing
+
 There is a file url you will need to copy the url location and paste into your plugin.
+
 Extensions > App Script > New Deployment > Select type > Web App > Who has access > Anyone > Deploy
+
 Copy the url from your screen that looks like this: https://script.google.com/macros/s/*****************/exec
+
 
 
 Step 2:
