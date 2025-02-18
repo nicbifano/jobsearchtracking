@@ -3,6 +3,7 @@ This project is to use google spreadsheets as a job search tracking activity
 
 Step 1:
 Make your own copy of this spreadsheet:
+File > Make a Copy
 https://docs.google.com/spreadsheets/d/1QaB6toLxA3B4MwaJZ-tV8kMV5VbZrNMiep4t__1PYpg/edit?usp=sharing
 
 Step 2:
@@ -14,8 +15,9 @@ Step 3:
 Download this code and unzip it locally.
 
 Step 4:
-open a tab to enable the chrome extension and install it:
+Using the Chrome browser:
+Open a tab to enable the chrome extension and install it:
 1. goto: chrome://extensions
 2. Turn on: Developer mode
 3. Load unpacked
-4. browse to folder where it is locally on computer
+4. Browse to folder where it is locally on computer
