@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
           .then(response => response.text())
           .then(data => {
             statusText.textContent = "Data sent successfully!";
-            setTimeout(() => (statusText.textContent = ""), 2000);
+            setTimeout(() => (statusText.textContent = ""), 6000);
           })
           .catch(error => {
             statusText.textContent = "Error sending data";
