@@ -3,24 +3,24 @@ This project is to use a Chrome Extension to populate a Google Spreadsheet that 
 
 PART I: How to Download and Install the Job Data to Google Sheets Chrome Extension
 
-    - Click the Green Code drop down button above
-    - Select DownloadZip
-    - Unzip the files into a local folder
-    - open a Chrome tab to enable the chrome extension and install it or goto: chrome://extensions
-    - Turn on: Developer mode
-    - Load unpacked
-    - browse to the folder where you unzipped the files from above
+- Click the Green Code drop down button above
+- Select DownloadZip
+- Unzip the files into a local folder
+- open a Chrome tab to enable the chrome extension and install it or goto: chrome://extensions
+- Turn on: Developer mode
+- Load unpacked
+- browse to the folder where you unzipped the files from above
 
 
 PART II: Copy the necessary Google Spreadsheet and Configure it to work with the Chrome Extension
 
-    ```Step 1: Make your own copy of this Google Spreadsheet: File > Make a Copy of: <a href="https://docs.google.com/spreadsheets/d/1QaB6toLxA3B4MwaJZ-tV8kMV5VbZrNMiep4t__1PYpg/edit?usp=sharing" target="_blank">https://docs.google.com/spreadsheets/d/1QaB6toLxA3B4MwaJZ-tV8kMV5VbZrNMiep4t__1PYpg/edit?usp=sharing</a>```
+Step 1: Make your own copy of this Google Spreadsheet: File > Make a Copy of: <a href="https://docs.google.com/spreadsheets/d/1QaB6toLxA3B4MwaJZ-tV8kMV5VbZrNMiep4t__1PYpg/edit?usp=sharing" target="_blank">https://docs.google.com/spreadsheets/d/1QaB6toLxA3B4MwaJZ-tV8kMV5VbZrNMiep4t__1PYpg/edit?usp=sharing</a>
 
-    Step 2: There is a File URL you that you will need to copy and paste into your Extension in the Sheets field.
+Step 2: There is a File URL you that you will need to copy and paste into your Extension in the Sheets field.
 
-    ```Step 3: Extensions > App Script > Deploy > New Deployment > Select type > Web App > Who has access > Anyone > Deploy > Authorize Access > Choose your account > Advanced > Go to Untitled Project (unsafe) > Allow > Copy the url from your screen that looks like this: https://script.google.com/macros/s/*****************/exec```
+Step 3: Extensions > App Script > Deploy > New Deployment > Select type > Web App > Who has access > Anyone > Deploy > Authorize Access > Choose your account > Advanced > Go to Untitled Project (unsafe) > Allow > Copy the url from your screen that looks like this: https://script.google.com/macros/s/*****************/exec
 
-    Step 4: When you click on the Job Data to Google Sheets Extension in your Chrome Toolbar, the URL from step 2 is what you will paste as the Sheet Script Input Click Save Sheet Script```
+Step 4: When you click on the Job Data to Google Sheets Extension in your Chrome Toolbar, the URL from step 2 is what you will paste as the Sheet Script Input Click Save Sheet Script
 
 
 PART III: How to use the Job Data to Google Sheets Chrome Extension
