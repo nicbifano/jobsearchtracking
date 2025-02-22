@@ -20,7 +20,7 @@ https://docs.google.com/spreadsheets/d/1QaB6toLxA3B4MwaJZ-tV8kMV5VbZrNMiep4t__1P
 
 Step 2: There is a File URL you that you will need to copy and paste into your Extension in the Sheets field.
 
-Extensions > App Script > Deploy > New Deployment > Select type > Web App > Who has access > Anyone > Deploy > Authorize Access > Choose your account > Advanced > Go to Untitled Project (unsafe) > Allow > Copy the url from your screen that looks like this: https://script.google.com/macros/s/*****************/exec
+Step 3: Extensions > App Script > Deploy > New Deployment > Select type > Web App > Who has access > Anyone > Deploy > Authorize Access > Choose your account > Advanced > Go to Untitled Project (unsafe) > Allow > Copy the url from your screen that looks like this: https://script.google.com/macros/s/*****************/exec
 
 Step 4: When you click on the Job Data to Google Sheets Extension in your Chrome Toolbar, the URL from step 2 is what you will paste as the Sheet Script Input Click Save Sheet Script
 
