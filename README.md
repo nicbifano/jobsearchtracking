@@ -1,7 +1,7 @@
 # jobsearchtracking
 This project is to use a Chrome Extension to populate a Google Spreadsheet that you can use as an Active Job Search Tracker using the 15-10-2 method
 
-PART I: How to Download and Install the Job Data to Google Sheets Chrome Extension
+<b>PART I: How to Download and Install the Job Data to Google Sheets Chrome Extension</b>
 
 - Click the Green Code drop down button above
 - Select DownloadZip
@@ -12,7 +12,7 @@ PART I: How to Download and Install the Job Data to Google Sheets Chrome Extensi
 - browse to the folder where you unzipped the files from above
 
 
-PART II: Copy the necessary Google Spreadsheet and Configure it to work with the Chrome Extension
+<b>PART II: Copy the necessary Google Spreadsheet and Configure it to work with the Chrome Extension</b>
 
 Step 1: Make your own copy of this Google Spreadsheet: File > Make a Copy of: <a href="https://docs.google.com/spreadsheets/d/1QaB6toLxA3B4MwaJZ-tV8kMV5VbZrNMiep4t__1PYpg/edit?usp=sharing" target="_blank">https://docs.google.com/spreadsheets/d/1QaB6toLxA3B4MwaJZ-tV8kMV5VbZrNMiep4t__1PYpg/edit?usp=sharing</a>
 
@@ -23,7 +23,7 @@ Step 3: Extensions > App Script > Deploy > New Deployment > Select type > Web Ap
 Step 4: When you click on the Job Data to Google Sheets Extension in your Chrome Toolbar, the URL from step 2 is what you will paste as the Sheet Script Input Click Save Sheet Script
 
 
-PART III: How to use the Job Data to Google Sheets Chrome Extension
+<b>PART III: How to use the Job Data to Google Sheets Chrome Extension</b>
 
 Step 1: The Extension had difficulty tracking quality data when activated on a page with frames or inclusions.  It is best to open items in their own page.  Example on the basic job search pages for Indeed there is a list of jobs on the left and a scrollable section on the right.  If you want the extension to track the best data you should right click on the job on the left scrollable area and choose Open in New Tab before recording information with the Extension.
 
