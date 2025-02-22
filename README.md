@@ -14,9 +14,7 @@ PART I: How to Download and Install the Job Data to Google Sheets Chrome Extensi
 
 PART II: Copy the necessary Google Spreadsheet and Configure it to work with the Chrome Extension
 
-    Step 1: Make your own copy of this Google Spreadsheet: File > Make a Copy
-
-    ```    https://docs.google.com/spreadsheets/d/1QaB6toLxA3B4MwaJZ-tV8kMV5VbZrNMiep4t__1PYpg/edit?usp=sharing```
+    ```Step 1: Make your own copy of this Google Spreadsheet: File > Make a Copy of: <a href="https://docs.google.com/spreadsheets/d/1QaB6toLxA3B4MwaJZ-tV8kMV5VbZrNMiep4t__1PYpg/edit?usp=sharing" target="_blank">https://docs.google.com/spreadsheets/d/1QaB6toLxA3B4MwaJZ-tV8kMV5VbZrNMiep4t__1PYpg/edit?usp=sharing</a>```
 
     Step 2: There is a File URL you that you will need to copy and paste into your Extension in the Sheets field.
 
