@@ -3,9 +3,6 @@
     "name": "Job Data to Google Sheets",
     "version": "1.0",
     "permissions": ["activeTab", "scripting", "storage"],
-    "background": {
-      "service_worker": "background.js"
-    },
     "action": {
       "default_popup": "popup.html"      
     }
